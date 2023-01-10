@@ -11,7 +11,7 @@ rectangular_position = (left, upper, right, lower)
 image1 = Image.open("base_image.png").convert("L")
 im_crop = image1.crop(rectangular_position)
 
-driver_path = "D:/main programs/coding/geckodriver.exe"
+driver_path = "c:/.../geckodriver.exe"
 site_url = "https://trex-runner.com/"
 
 #lunch driver to use firefox
